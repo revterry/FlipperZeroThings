@@ -1,6 +1,4 @@
-Posted by
-u/MikeySkates
-at https://www.reddit.com/r/flipperzero/comments/zbiuwo/subghz_remote_map_configure_tutorial_for_new/?utm_source=share&utm_medium=web2x&context=3
+Posted by u/MikeySkates at https://www.reddit.com/r/flipperzero/comments/zbiuwo/subghz_remote_map_configure_tutorial_for_new/?utm_source=share&utm_medium=web2x&context=3
 
 #Sub-ghz remote map configure tutorial for new people
 I wanted to make this post for new people. Because not a lot of people do a good job explaining simply how the sub-ghz remote feature works. Im dumb and had to research it myself. Basically, the sub-ghz remote is just a shortcut for sending out sub-ghz signals youve saved. Thats all it does. Its just a shortcut. It makes it to where you can press your up/down/left/right/ok buttons and each button will send out the signal you saved and assign to each button.
