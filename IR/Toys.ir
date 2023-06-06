@@ -1,0 +1,8 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Laserxfire
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6139 464 590 422 1568 465 564 447 1568 468 508 520 564 442 1519 520 1547

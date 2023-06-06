@@ -1,0 +1,104 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 02 FD 00 00
+# 
+name: Video_mode
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 03 FC 00 00
+# 
+name: Prev_page
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 05 FA 00 00
+# 
+name: Next_page
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 06 F9 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 11 EE 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 13 EC 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 14 EB 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 16 E9 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 15 EA 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 04 FB 00 00
+# 
+name: Aspect
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 01 FE 00 00
+# 
+name: Resync
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 07 F8 00 00
+# 
+name: Hide
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0C F3 00 00
+# 
+name: Keystone_up
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 09 F6 00 00
+# 
+name: Keystone_Down
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0D F2 00 00
+# 
+name: Vol_Up
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 08 F7 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0B F4 00 00
