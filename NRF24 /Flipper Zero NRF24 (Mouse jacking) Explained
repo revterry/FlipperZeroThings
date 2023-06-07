@@ -1,0 +1,26 @@
+posted by u/Nicoarla
+https://www.reddit.com/r/flipperzero/comments/10g2d2z/flipper_zero_nrf24_mouse_jacking_explained/
+
+
+Flipper Zero NRF24 (Mouse jacking) Explained
+So I´ve looked everywhere and it took me a long while until I could find out how to make the NRF24 module work in my flipper zero.
+
+I posted an image on how you should connect the module to the GPIO.
+
+So basically you go to your NRF24 Sniffer app (you gotta install it. There´s enough info on github on how to do it), set the Sample Time around 4000ms and start sniffing.
+
+---The mouse, or device you are trying to hack into must be active. If you don´t move the mouse around, it goes into sleep mode and the flipper won´t recognize it.---
+
+---Not all USBs are recognizable, so you just gotta be lucky.---
+
+Once you find a signal, it will be saved in the Mousejacker Addresses.txt. The first address that appears there is your first USB signal, from there to the right, you will find all the addresses that you found, until you hit an address that looks like this "0000000000", that is the end of your found addresses. To the left you´ll find preset addresses which basically have no value (at least that I know of).
+
+Press the address you want to hack into and then find the badusb you want to start and press it.
+
+That should be it.
+
+
+
+
+
+---------This is meant for educational purposes only.-------------
